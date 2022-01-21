@@ -1,0 +1,35 @@
+.container {
+    max-width: 768px;
+    padding: 0 10px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.firstLogo {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navItems {
+    list-style: none;
+    display: flex;
+    padding: 10px ;
+}
+
+.navItems > li {
+    list-style:  none;
+
+}
+
+.navLogo {
+    width: 60px;
+}
