@@ -5,31 +5,37 @@
     overflow: hidden;
 }
 
-.firstLogo {
+
+
+nav {
     display: flex;
     align-items: center;
-
-}
-
-
-.nav {
-    display: flex;
+    background-color: #21222a;
     justify-content: space-between;
-    align-items: center;
+    height: 90px;
+    padding: 30px 25px;
 
 }
 
-.navItems {
-    list-style: none;
-    display: flex;
-    padding: 10px ;
+.navLogoText , .navTitle {
+    margin: 0;
 }
 
-.navItems > li {
-    list-style:  none;
 
+
+nav > img {
+    height: 30px;
+    margin-right: 7px;
 }
 
-.navLogo {
-    width: 60px;
+.navLogoText  {
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.navTitle {
+    color: #DEEBF8;
+    font-weight: 600;
 }

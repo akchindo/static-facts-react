@@ -4,3 +4,35 @@
     margin: auto;
     overflow: hidden;
 }
+
+
+main {
+    background-color: #282d35;
+    background-image: url(../images/react-background.png) ;
+    background-repeat: no-repeat;
+    background-position: right 75%;
+    padding: 57px 27px;
+    height: 100%;
+    color: white;
+}
+
+.mainTitle {
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+
+.mainFacts {
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.mainFacts > li {
+    line-height: 19px;
+    padding-block: 10px;
+}
+
+.mainFacts > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}

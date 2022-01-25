@@ -1,20 +1,15 @@
 import React from "react"
-import reactLogo from "../images/react-logo-icon.png"
+import reactLogo from "../images/logo192.png"
 import classes from "./Header.module.css"
 
 function Header() {
     return (
         <header>
-         <div className={classes.container}>
             <nav className={classes.nav}>
-                <div className={classes.firstLogo}>
-                    <img src={reactLogo} alt="logo"  className={classes.navLogo} />
-                    <h3>React Facts</h3>
-                </div>
-                <h4>React Course - Project 1</h4>
+                <img src={reactLogo} alt="logo"  className={classes.navLogo} />
+                <h3 className={classes.navLogoText                                        } >React Facts</h3>
+                <h4 className={classes.navTitle}> React Course - Project 1</h4>
             </nav>
-        </div>
-          
       </header>
     )  
   }
