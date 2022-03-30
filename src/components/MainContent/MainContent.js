@@ -3,9 +3,9 @@ import classes from "../MainContent/MainContent.module.css"
 
 
 
-function MainContent() {
+function MainContent(props) {
     return (
-      <main>
+      <main className={props.darkMode ? classes.dark : '' }>
         <h1 className={classes.mainTitle}>Fun facts about React</h1>
         <ul className={classes.mainFacts}>
          <li>Was first released in 2013</li>

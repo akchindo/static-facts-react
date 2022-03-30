@@ -10,12 +10,18 @@
 nav {
     display: flex;
     align-items: center;
-    background-color: #21222a;
+    background-color: #ffff;
     justify-content: space-between;
     height: 90px;
     padding: 30px 25px;
 
 }
+
+
+nav.dark {
+    background-color: #21222A;
+}
+
 
 .navLogoText , .navTitle {
     margin: 0;
@@ -38,4 +44,64 @@ nav > img {
 .navTitle {
     color: #DEEBF8;
     font-weight: 600;
+}
+
+.toggler {
+    display: flex;
+    align-items: center;
+}
+
+.toggler p {
+    font-size: 0.625rem;
+    font-weight: 600;
+}
+
+.togglerSlider {
+    width: 25px;
+    height: 13px;
+    background-color: #2B283A;
+    border-radius: 2rem;
+    margin-inline: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    box-sizing: content-box;
+}
+
+nav.dark .togglerSlider{
+    border-color: white;
+    background-color: #F5F5F5;
+}
+
+.togglerSliderCircle {
+    height: 13px;
+    width: 13px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+nav.dark .togglerSliderCircle {
+    background-color: black;
+}
+
+.togglerLight {
+    color: #2B283A;
+}
+
+nav.dark .togglerLight {
+    color: #918E9B;
+}
+
+.togglerDark {
+    color: #D5D4D8;
+}
+
+nav.dark .togglerDark {
+    color: #FFFFFF;
+}
+
+nav.dark .togglerSlider {
+    justify-content: flex-end;
 }
